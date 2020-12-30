@@ -1,5 +1,4 @@
-HAR Files/*
 .vscode
-.dockerignore
-.git
-app/__pycache__/*
+/.dockerignore
+/.git
+/app/__pycache__/*
