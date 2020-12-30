@@ -20,8 +20,7 @@ def GetFirstDocument(tableName):
 @app.route('/',methods=["GET","POST"])
 def index():
     return "Welcome to Azure App Services"
-            
-
+    
 if __name__ == '__main__':
     app.debug = True
     app.run(host='0.0.0.0')

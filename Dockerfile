@@ -1,4 +1,3 @@
-
 # load base python image
 FROM appsvc/python
 
