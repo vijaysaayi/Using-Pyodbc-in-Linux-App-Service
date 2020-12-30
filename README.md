@@ -3,7 +3,7 @@
 [Pyodbc](https://pypi.org/project/pyodbc/) is an open-source Python module that helps in accessing ODBC database.
 
 The following blog explains on how this module can be used for Linux based App Services.
-1. **Using blessed image:** <br>
+## 1. **Using blessed image:** <br>
 >   The blessed image of Linux based App Service doesn’t have this module installed by default, as this is used for a specific business logic. 
 >
 >   The following steps helps in installation of this package on blessed images.
@@ -11,7 +11,7 @@ The following blog explains on how this module can be used for Linux based App S
 >          <li>	The App Service deployment engine automatically activates a virtual environment and runs pip install -r requirements.txt for you when you deploy a Git repository, or a zip package. <br>
 >   You could refer to our documentation at Customize Build Automation which explains this in detail. </li> </ol>
 
-2. **Using Custom Image :**
+## 2. **Using Custom Image :**
 >   You could build a custom image with pyodbc pre-installed. 
 >
 >   A sample image is available at [vijaysaayi/Using-Pyodbc-in-Linux-App-Service (github.com)](https://github.com/vijaysaayi/Using-Pyodbc-in-Linux-App-Service/) 
@@ -50,8 +50,8 @@ The following blog explains on how this module can be used for Linux based App S
 >   <img src="https://github.com/vijaysaayi/Using-Pyodbc-in-Linux-App-Service/blob/main/Images/07%20-%20create%20new%20webapp.png" height="80%" width="80%"> </img> <br>
 >   <img src="https://github.com/vijaysaayi/Using-Pyodbc-in-Linux-App-Service/blob/main/Images/07%20-%20create%20new%20webapp%20-%20page%202.png" height="80%" width="80%"> </img>
 > 
->   2. Your DB connection string value in App Setting needs to be in the following format: 
->       DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password
+>   2. Your DB connection string value in App Setting needs to be in the following format: <br>
+>      **DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password**
 >
 >   When you browse to the App Service , you should see the following response. <br>
 >   <img src="https://github.com/vijaysaayi/Using-Pyodbc-in-Linux-App-Service/blob/main/Images/08%20-%20sample%20response.png" height="80%" width="80%"> </img>
