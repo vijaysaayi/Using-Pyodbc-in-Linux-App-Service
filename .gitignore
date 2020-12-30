@@ -1,2 +1,5 @@
 HAR Files/*
 .vscode
+.dockerignore
+.git
+app/__pycache__/*

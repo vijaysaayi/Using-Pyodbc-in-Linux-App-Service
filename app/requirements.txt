@@ -1,5 +1,2 @@
 flask
-requests
-python-dotenv
-pyjwt
-cryptography
+pyodbc
