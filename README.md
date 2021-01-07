@@ -7,7 +7,7 @@ The following blog explains on how this module can be used for Linux based App S
 >   The blessed image of Linux based App Service doesn’t have this module installed by default, as this is used for a specific business logic. 
 >
 >   The following steps helps in installation of this package on blessed images.
->   <ol> <li> Deploy your code via Git repository or Zip package </li>
+>   <ol> <li> Deploy your code via Git repository or Local Git </li>
 >          <li>	The App Service deployment engine automatically activates a virtual environment and runs pip install -r requirements.txt for you when you deploy a Git repository, or a zip package. <br>
 >   You could refer to our documentation at Customize Build Automation which explains this in detail. </li> </ol>
 
